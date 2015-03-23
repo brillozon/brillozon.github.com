@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Mike's Blog
-tagline: Liberating blue smoke as we can
+title : Blue smoke liberator
+tagline: liberating blue smoke whenever we can
 author :
   name : Mike Martinez
   email : brillozon@gmail.com
   github : brillozon
   twitter : brillozon
-  feedburner : feedname
+  feedburner : github/brillozon
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +25,12 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://brillozon.github.io
+production_url : brillozon.github.io
+
+# This may need some server side processing - so I may need to do this in
+# angular instead.  But this does make a nice index set to search with, I
+# can probably use that regardless of the actual search mechanism.
+gems: ['jekyll-lunr-js-search']
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

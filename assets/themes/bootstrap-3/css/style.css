@@ -13,15 +13,74 @@
 /*.navbar .nav {
   float: right; }*/
 
+body {
+  background: url('/assets/images/rockywall.png');
+  font-family: Caudex, Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 1em;
+  line-height: 1.625em;
+}
+
+h1 h2, .h1 .h2 {
+  font-size: 42px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+  letter-spacing: -1px;
+}
+
+h3, .h3 {
+  font-size: 26px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  /* color: #f22430; */
+  color: #d12203;
 }
 #footer {
-  background-color: #fdcd60;
+  /* background-color: #fdcd60; */
+  background-color: #c1a3d1;
 }
 
+/* #top-bar { */
+/* .navbar-default { */
+/* nav { */
+.navbar .navbar-header .navbar-collapse .navbar-default {
+  background-color: #c1a3d1;
+}
 
+.navbar {
+  font-size: 42px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+  letter-spacing: -1px;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+
+.brand-icon {
+  width: 90px;
+}
+
+.page-header {
+  background-color: #c2ced0;
+  font-family: Arial, Helvetica, Sans-Serif;
+  width: 100%;
+  margin: auto;
+}
 
 /* posts index */
 .post > h3.title {
@@ -77,3 +136,4 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
