@@ -62,8 +62,9 @@ h1, h2, h3, h4 {
 .navbar {
   font-size: 42px;
   line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px;
+  margin-top: 0px;
+  /* margin-bottom: 26px; */
+  margin-bottom: 0px;
   letter-spacing: -1px;
 }
 
@@ -75,11 +76,28 @@ h1, h2, h3, h4 {
   width: 90px;
 }
 
+.site-header {
+  /* font-family: Caudex, Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif; */
+  font-family: Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  margin: auto 0 26px 0;
+  padding: 5px 0;
+  background-color: #c8b8d1;
+  text-align: center;
+}
+
+.site-header > h1 {
+  /* color: #c1d1b8; */
+  color: #fff;
+}
+
 .page-header {
-  background-color: #c2ced0;
+  /* background-color: #c2ced0; */
   font-family: Arial, Helvetica, Sans-Serif;
   width: 100%;
-  margin: auto;
+  margin: auto 0;
+  border-bottom-width: 5px;
+  border-bottom-style: dashed;
+  border-color: black;
 }
 
 .vcard, ul {

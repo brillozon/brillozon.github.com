@@ -8,11 +8,11 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Blue smoke liberator
-tagline: liberating blue smoke whenever we can
+title : Brillouin Zone
+tagline: uniquely defining a primitive cell in reciprocal space
 author :
   name : Mike Martinez
-  email : brillozon@gmail.com
+  email : mike@brillozon.com
   github : brillozon
   twitter : brillozon
   feedburner : github/brillozon
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : brillozon.github.io
+production_url : brillozon.com
 
 # This may need some server side processing - so I may need to do this in
 # angular instead.  But this does make a nice index set to search with, I
