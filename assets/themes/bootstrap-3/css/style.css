@@ -16,8 +16,8 @@
 body {
   background: url('/assets/images/rockywall.png');
   font-family: Caudex, Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  font-size: 1em;
-  line-height: 1.625em;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 h1 h2, .h1 .h2 {
