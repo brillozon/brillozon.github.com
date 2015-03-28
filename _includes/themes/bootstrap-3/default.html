@@ -18,7 +18,9 @@
     <!-- Sticky Footer -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
     
+    <!--
     <link href='http://fonts.googleapis.com/css?family=Caudex:400,700,400italic,700italic|Exo+2:400,400italic|Radley:400italic' rel='stylesheet' type='text/css'>
+      -->
 
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
@@ -32,12 +34,25 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <!-- Update these with your own images
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ ASSET_PATH }}/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ ASSET_PATH }}/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSET_PATH }}/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ ASSET_PATH }}/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ ASSET_PATH }}/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ ASSET_PATH }}/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ ASSET_PATH }}/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ ASSET_PATH }}/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ ASSET_PATH }}/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ ASSET_PATH }}/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ ASSET_PATH }}/icons/favicon-16x16.png">
+    <link rel="manifest" href="{{ ASSET_PATH }}/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ ASSET_PATH }}/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -98,7 +113,7 @@
       </nav>
 
       <div class="site-header">
-        <h1>...liberating blue smoke whenever possible...</h1>
+        <h1>{{ site.title }} &mdash;{{ site.tagline }}</h1>
       </div>
       <div class="container">
         {{ content }}
@@ -107,7 +122,7 @@
     </div>
 
     <div class="misc vcard">
-      <h4>about</h4>
+      <h4>Contact:</h4>
       <ul>
         <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
         <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
@@ -118,10 +133,9 @@
 
 
     <div id="footer">
-      <div class="container">
+      <!-- <div class="container"> -->
+      <div>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </div>
     </div>

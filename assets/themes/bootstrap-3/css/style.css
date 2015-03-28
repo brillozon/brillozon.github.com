@@ -15,12 +15,17 @@
 
 body {
   background: url('/assets/images/rockywall.png');
-  font-family: Caudex, Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  font-size: 20px;
-  line-height: 32px;
+  font-family: "Times New Roman", Times, Serif;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+#wrap {
+  margin-bottom: 10px;
 }
 
 h1 h2, .h1 .h2 {
+  font-family: Tahoma, Geneva, Sans-Serif;
   font-size: 42px;
   line-height: 52px;
   margin-top: 52px;
@@ -50,22 +55,31 @@ h1, h2, h3, h4 {
 #footer {
   /* background-color: #fdcd60; */
   background-color: #c1a3d1;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 30px;
+}
+
+#wrap {
+  padding-bottom: 0;
 }
 
 /* #top-bar { */
 /* .navbar-default { */
 /* nav { */
 .navbar .navbar-header .navbar-collapse .navbar-default {
-  background-color: #c1a3d1;
+  background-color: rgba(193,163,209,0.4); /* #c1a3d1; */
 }
 
 .navbar {
   font-size: 42px;
   line-height: 52px;
-  margin-top: 0px;
-  /* margin-bottom: 26px; */
-  margin-bottom: 0px;
   letter-spacing: -1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -78,7 +92,7 @@ h1, h2, h3, h4 {
 
 .site-header {
   /* font-family: Caudex, Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif; */
-  font-family: Exo, Radley, "DejaVu Sans Condensed", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-family: Impact, Charcoal, Sans-Serif;
   margin: auto 0 26px 0;
   padding: 5px 0;
   background-color: #c8b8d1;
@@ -93,7 +107,7 @@ h1, h2, h3, h4 {
 
 .page-header {
   /* background-color: #c2ced0; */
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: Impact, Charcoal, Sans-Serif;
   width: 100%;
   margin: auto 0;
   border-bottom-width: 5px;
@@ -101,8 +115,22 @@ h1, h2, h3, h4 {
   border-color: black;
 }
 
-.vcard, ul {
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.vcard ul, .social ul {
   list-style: none;
+}
+
+.vcard {
+  background-color: rgba(200,184,209,0.3); /* #c8b8d1; */
+  display: block;
+  margin: 5px auto 0;
+  padding: 5px 20px;
+  position: relative;
+  bottom: -9px;
 }
 
 /* posts index */

@@ -1,7 +1,7 @@
 ---
 layout: page
-title : Brillouin Zone
-tagline: uniquely defining a primitive cell in reciprocal space
+title : Brillozon
+tagline: liberating blue smoke whenever possible
 ---
 {% include JB/setup %}
 
