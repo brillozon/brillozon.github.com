@@ -27,10 +27,12 @@ author :
 #
 production_url : brillozon.com
 
-# This may need some server side processing - so I may need to do this in
+# Search may need some server side processing - so I may need to do this in
 # angular instead.  But this does make a nice index set to search with, I
 # can probably use that regardless of the actual search mechanism.
-gems: ['jekyll-lunr-js-search']
+gems:
+ - jekyll-sitemap
+ - jekyll-lunr-js-search
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
