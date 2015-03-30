@@ -34,6 +34,9 @@ gems:
  - jekyll-sitemap
  - jekyll-lunr-js-search
 
+lunr_search:
+  excludes: [rss.xml, atom.xml, sitemap.xml, sitemap.txt, robots.txt]
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
