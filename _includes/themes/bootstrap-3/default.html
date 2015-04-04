@@ -98,25 +98,26 @@
             {% include JB/pages_list %}
           </ul>
           <div id="search">
-            <form class="navbar-form navbar-right" role="search" action="/search" method="get">
+            <form class="navbar-form navbar-right">
               <div class="form-group">
                 <input type="text" id="search-query" name="q" class="form-control" placeholder="Search" autocomplete="off">
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
             </form>
           </div>
-          <section id="search-results" style="display: none;">
-            <p>Search results</p>
-            <div class="entries">
-            <div>
-          </section>
         </div><!-- /.navbar-collapse -->
       </nav>
 
       <div class="site-header">
-        <h1>{{ site.title }} &mdash;{{ site.tagline }}</h1>
+        <h1>{{ site.title }} &mdash; {{ site.tagline }}</h1>
       </div>
       <div class="container">
+          <section id="search-results" class="well" style="display: none;">
+            <div>
+              <p>Search results</p>
+              <div class="entries">
+              <div>
+            </div>
+          </section>
         {{ content }}
       </div>
 
@@ -171,12 +172,11 @@
     </script>
     {% endraw %}
 
-    <script src="{{ site.url }}/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
   $(function() {
@@ -189,6 +189,8 @@
   });
 
 </script>
+
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
     {% include JB/analytics %}
   </body>
