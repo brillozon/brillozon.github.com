@@ -33,7 +33,8 @@
     add('//platform.linkedin.com/in.js');
     
     // Twitter SDK
-    add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+    // This is added in the main page so we can add the follow button in the common footer.
+    // add('//platform.twitter.com/widgets.js', 'twitter-wjs');
 
     // Google+ button
     add('https://apis.google.com/js/plusone.js');
