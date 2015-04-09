@@ -1,0 +1,48 @@
+
+<!-- Twitter -->
+<li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="{{ site.JB.sharing.twitter.via }}" data-related="{{ site.author.twitter }}" data-count="{{ site.JB.sharing.twitter.count }}" data-size="{{ site.JB.sharing.twitter.size }}">Tweet</a></li>
+
+<!-- Google+ -->
+<li class="gp"><div class="g-plusone" data-size="{{ site.JB.sharing.googleplus.size }}" data-annotation="{{ site.JB.sharing.googleplus.annotation }}" data-width="{{ site.JB.sharing.googleplus.width }}"></div></li>
+
+<!-- LinkedIn -->
+<li>
+<script type="IN/Share" data-url="{{ BASE_PATH }}{{ page.url }}" data-counter="{{ site.JB.sharing.linkedin.counter }}"></script>
+</li>
+
+
+<!-- Facebook -->
+<li class="fb"><div class="fb-like" data-href="{{ BASE_PATH }}{{ page.url }}" data-layout="{{ site.JB.sharing.facebook.layout }}" data-action="{{ site.JB.sharing.facebook.action }}" data-width="{{ site.JB.sharing.facebook.width }}" data-show-faces="{{ site.JB.sharing.facebook.faces }}" data-share="true"></div></li>
+
+<script>
+  
+(function(doc, script) {
+ 	
+	//Async Social Buttons
+    var js, 
+        fjs = doc.getElementsByTagName(script)[0],
+        add = function(url, id) {
+            if (doc.getElementById(id)) {return;}
+            js = doc.createElement(script);
+            js.src = url;
+            id && (js.id = id);
+            fjs.parentNode.insertBefore(js, fjs);
+        };
+
+    // LinkedIn SDK
+    add('//platform.linkedin.com/in.js');
+    
+    // Twitter SDK
+    add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+
+    // Google+ button
+    add('https://apis.google.com/js/plusone.js');
+    
+    // Facebook SDK
+    // add('//connect.facebook.net/en_US/sdk.js#xfbml=1&version=2.3', 'facebook-jssdk');
+    /// @TODO: find the actual correct API to use for these guys.
+    add('http://static.ak.fbcdn.net/connect.php/js/FB.Share')
+    
+}(document, 'script'));
+
+</script>
