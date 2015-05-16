@@ -5,13 +5,11 @@ tagline: liberating blue smoke whenever possible
 ---
 {% include JB/setup %}
 
-## Things left to do
+## Upcoming Events
 
-* Get search working for the site
-* Create a sitemap for the site
-* Get the styles in order for the pages and posts
-* Make sure I get the attributions and licenses correct
-* ... start posting... :D
+1.      StampedeCon 2015
+
+        [Interactive Visualization in Human Time](http://stampedecon.com/sessions/interactive-visualization-in-human-time/)
 
 ## Posts
 <ul class="posts">

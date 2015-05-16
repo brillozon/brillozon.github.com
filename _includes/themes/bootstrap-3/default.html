@@ -110,7 +110,12 @@
       <div class="site-header">
         <h1>{{ site.title }} &mdash; {{ site.tagline }}</h1>
       </div>
-      <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 hidden-xs">
+          {% include JB/sidebar %}
+        </div>
+        <div class="container col-md-9">
           <section id="search-results" class="well" style="display: none;">
             <div>
               <p>Search results</p>
@@ -119,12 +124,12 @@
             </div>
           </section>
         {{ content }}
+        </div>
       </div>
 
-    </div>
+    </div> <!-- end of #wrap -->
 
     <div class="misc vcard">
-      <h4>Contact:</h4>
       <ul class="list-inline">
         <li class="contact"><address><a href="mailto:nospam@brillozon.com" class="fn email">{{ site.author.email }}</a></address></li>
         <li class="github">

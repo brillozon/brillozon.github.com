@@ -20,6 +20,10 @@ body {
   line-height: 36px;
 }
 
+p {
+  margin-bottom: 25px;
+}
+
 #wrap {
   margin-bottom: 10px;
 }

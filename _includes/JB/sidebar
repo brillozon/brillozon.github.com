@@ -1,0 +1,13 @@
+{% comment %}<!--
+The sidebar include allows you to embed sidebars in your content.
+Usage:
+  1) include JB/sidebar
+  example:
+    <ul>
+  	  {% include JB/sidebar %}
+  	</ul>
+-->{% endcomment %}
+
+<div id="sidebar" style="margin-left: 15px">
+{{ page.sidebar }}
+</div>
