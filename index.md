@@ -7,9 +7,17 @@ tagline: liberating blue smoke whenever possible
 
 ## Upcoming Events
 
-1.      StampedeCon 2015
+1.      WUHACK (Washington University Hack-a-thon)
 
-        [Interactive Visualization in Human Time](http://stampedecon.com/sessions/interactive-visualization-in-human-time/)
+        I will be working for a few hours on Saturday.
+
+        [http://wuhack.com/](http://wuhack.com/)
+
+2.      Strangeloop 2015
+
+        I will be attending.  :)
+
+        [http://www.thestrangeloop.com/](http://www.thestrangeloop.com/)
 
 ## Posts
 <ul class="posts">
